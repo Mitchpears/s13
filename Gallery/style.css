@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Google Fonts*/
+
+/*Universal Selector*/
+main {
+  @font-family: 'Kaushan Script', cursive;
+  --heading-1: 100px/102px Kaushan Script, cursive;
+  background-color: black;
+  text-decoration-color: silver;
+}
+
+h1 {
+  font-family: 'Courgette', monospace;
+}
+h4 {
+ font-family: 'Comforter Brush', cursive;
+}
+h2 {
+  font-family: 'Architects Daughter', cursive;
+}

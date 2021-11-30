@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*Google Fonts*/
+
+/*Universal Selector*/
+body {
+	@font-family: 'Kaushan Script', cursive;
+	--heading-1: 100px/102px Kaushan Script, cursive;
+	background-color: darkgray;
+	text-decoration-color: silver;
+}
+
+h1 {
+	font-family: 'Courgette', monospace;
+}
+h2 {
+	font-family: 'Lobster', cursive;
+}
+h4 {
+	font-family: 'Architects Daughter', cursive;
+}
+
+.Skills {
+	background-image: auto;
+	text-decoration-color: deeppink;
+}
+
+body {
+	background-color: darkgray;

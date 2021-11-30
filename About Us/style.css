@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*Google Fonts*/
+
+/*Universal Selector*/
+* {
+	font-family: 'Lobster', cursive;
+	font-size: 24px;
+}
+
+
+@font-face {
+	font-family: Chunkfive; src: url('Chunkfive.otf');
+}
+body {
+	color: #F0F0F0; background-color: black; 
+	lighting-color: gold;
+	text-decoration-color: darkgoldenrod;
+	font-family: Chunkfive, sans;
+	--heading-1: 100px/102px Helvetica, sans-serif;
+  }
+
+  img {
+  	align-content: center;
+  	border-color: hotpink;
+  }
+
+  
+@keyframes spinner-animation-speed {
+	spinner-animation-speed: 3s;
+    transform: scale(0);
+  }
+ #Loading {
+    opacity: 1;
+    transform: none;
+    transition-duration:5s;
+        transition-property: !important;
+  }
+   #Load {
+    opacity: 1;
+    transform: none;
+    transition-duration:5s;
+    transition-property: !important;
+  }
