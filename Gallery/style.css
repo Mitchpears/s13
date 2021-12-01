@@ -13,7 +13,9 @@ main {
   background-color: black;
   text-decoration-color: silver;
 }
-
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
 h1 {
   font-family: 'Courgette', monospace;
 }
