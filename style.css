@@ -36,5 +36,19 @@ h4 {
 body {
 	background-color: darkgray;
 }
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
 
+  50% {
+    opacity: 1;
+  }
+}
 
+.progress {
+  animation-name: fade-in;
+}
+
+@import 'fading_entrances/fadeIn.css';

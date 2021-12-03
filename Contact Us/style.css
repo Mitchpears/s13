@@ -21,6 +21,15 @@ main, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+h1 {
+  font-family: 'Kaushan Script', cursive;
+}
+
+h2 {
+  font-family: 'Architects Daughter', cursive;
+}
+
 /* Media Queries: Tablet Landscape */
 @media screen and (max-width: 1060px)
 {
@@ -116,3 +125,8 @@ html { font-size: 100%; }
   .col-12 {width: 100%;}
 }
 }
+
+h1 {
+  font-family: 'Architects Daughter', cursive;
+}
+
